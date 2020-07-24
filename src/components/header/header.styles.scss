@@ -1,0 +1,19 @@
+@import "../../theme/variable";
+
+.header { border-bottom: 1px solid $borderColor; background-color: #fff; }
+.logo img { height: 50px; margin-right: 10px; }
+.header-action-strip ul { display: flex; margin: 0; padding: 0; list-style: none; }
+.profile-button.MuiButtonBase-root { height: auto; border-radius: 0; padding: 0px 15px; padding-right: 35px; text-transform: capitalize; font-size: 14px; font-weight: 400; height: 60px; }
+.profile-button img { height: 36px; border-radius: 100%; width: 36px; object-fit: cover; border: 1px solid $borderColor; margin-right: 10px; }
+.profile-button span.MuiButton-label { }
+.profile-button span.MuiTouchRipple-root { }
+.profile-button:after { content: ''; width: 0; height: 0; border-style: solid; border-width: 6px 5.5px 0 5.5px; border-color: #A5A5A5 transparent transparent transparent; margin-left: 15px; }
+.header-action-strip ul li.button-group { display: flex; align-items: center; padding-right: 35px; }
+.header-action-strip ul li.button-group button  + button { margin-left: 25px; }
+.header-action-strip ul .notification { }
+.header-action-strip ul li + li { border-left: 1px solid $borderColor; }
+
+.header-header {
+  width: 93%;
+  margin: 0 0 0 auto;
+}

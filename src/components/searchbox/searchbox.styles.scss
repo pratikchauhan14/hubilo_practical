@@ -1,0 +1,8 @@
+@import "../../theme/variable";
+
+.search-box { background: $inputBgColor; border: 1px solid $borderColor; border-radius: $inputBorderRadius; position: relative; }
+.search-box input { font-size:$fontSize; padding-left: 38px; height: 36px; box-sizing: border-box; width: 100%; }
+.search-box input::placeholder{ color: $placeholderColor; opacity: 1;}
+.search-box .search-icon { position: absolute; top: 50%; transform: translateY(-50%); left: 13px; }
+.search-box .MuiInputBase-root { width: 100%; }
+.search-box .search-icon svg { height: 18px; width: 16px; stroke:$placeholderColor; }

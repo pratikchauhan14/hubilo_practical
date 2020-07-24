@@ -1,0 +1,94 @@
+@import "./src/theme/variable.scss";
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: $bodyBgColor;
+  font-family: $bodyFont;
+}
+
+.custom-container{
+  width: $custom_container;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.fx{
+  display: flex;
+}
+.fx-center{
+  align-items: center;
+}
+.fx-space{
+  justify-content: space-between;
+}
+
+
+
+
+
+
+.header-action-strip ul .notification .MuiButtonBase-root { height: 60px; border-radius: 0px; }
+.MuiButton-root { padding-left: 15px; padding-right: 15px; }
+.MuiButton-root:not(.no-radius){ border-radius: 30px !important; }
+.MuiButton-root.no-radius{ border-radius: 0px !important; }
+
+.main-body {height: calc(100vh - 61px);overflow: auto;padding-left: 65px; }
+
+.main-body-inner {
+  width: 100%;
+  padding: 50px 50px 0;
+  display: flex; justify-content: center;
+}
+
+.white-box {
+  width: 1050px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: $boxShadow;
+  border-radius: 10px;
+}
+.white-box-wrapper {}
+
+.white-box-wrapper .white-box-title {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.btn-group {}
+
+.btn-group button + button {
+  margin-left: 20px;
+}
+.box-header {
+  padding: 0 0 30px;
+  border-bottom: 1px solid #DBDBDB;
+  margin-bottom: 30px;
+}
+
+
+.cs-checkbox { }
+.cs-checkbox > label { display: flex; flex-direction: row-reverse;  margin-right:10px; }
+.cs-checkbox  span.MuiSwitch-thumb { background: #fff; }
+.cs-checkbox span.MuiSwitch-track { background: #DBDBDB !important; opacity: 1 !important; border-radius: 21px; }
+.cs-checkbox .MuiSwitch-root { height: 48px; width: 68px; }
+.cs-checkbox span.MuiIconButton-label { height: 30px; width: 30px; }
+
+.session-filter-right { display: flex; align-items: center; }
+.icon-filter { }
+.icon-filter button { height: 36px; width: 36px; border: 1px solid #F59C86; border-radius: 6px; }
+.icon-filter button + button { margin-left: 15px; }
+.icon-filter button img { height: 18px; object-fit: contain; }
+
+.icon-filter button label { position: absolute; top: -9px; right: -11px; background: #FBB349; height: 20px; width: 20px; border-radius: 100%; border: 2px solid #fff; font-size: 9px; display: flex; align-items: center; justify-content: center; color: #fff; }
+
+.icon-btn-wrapper span.MuiIconButton-label { height: 25px; width: 25px; }
+
+.fx-space-center {
+  justify-content: center;
+}

@@ -1,0 +1,15 @@
+@import "../../theme/variable";
+
+
+.day-filter { display: flex; align-items: center; }
+.day-filter .arrow { min-width: auto; padding: 0; height: 30px; width: 30px; }
+.day-filter .arrow svg { stroke: #A5A5A5; stroke-width: 1px; }
+.day-filter .filter-btn-group { border: 1px solid #DBDBDB; border-radius: 4px; margin: 0 10px; }
+.day-filter .filter-btn-group button label { display: none; color: #A5A5A5; font-weight: 400; margin-left: 5px; font-size: 85%; }
+.day-filter .filter-btn-group button.active label { display: block; }
+.day-filter .filter-btn-group button { text-transform: capitalize; background: #F6F6F6; height: 36px; color: #A5A5A5; font-size: 14px; }
+.day-filter .filter-btn-group button.active { background: #fff; box-shadow: 4px 4px 12px #0000001A; color: #353535; }
+
+.day-filter .filter-btn-group button:first-child { border-top-left-radius: 4px !important; border-bottom-left-radius: 4px !important; }
+.day-filter .filter-btn-group button:last-child { border-top-right-radius: 4px !important; border-bottom-right-radius: 4px !important; }
+.day-filter .filter-btn-group button + button { border-left: 1px solid #DBDBDB; }
